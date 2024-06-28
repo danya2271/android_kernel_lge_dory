@@ -45,11 +45,6 @@ void *return_address(unsigned int);
 
 #else
 
-extern inline void *return_address(unsigned int level)
-{
-	return NULL;
-}
-
 #endif
 
 #define ftrace_return_address(n) return_address(n)

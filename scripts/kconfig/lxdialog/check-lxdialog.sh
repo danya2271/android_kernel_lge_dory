@@ -52,7 +52,6 @@ EOF
 	    echo " *** "                                                  1>&2
 	    echo " *** Install ncurses (ncurses-devel) and try again."    1>&2
 	    echo " *** "                                                  1>&2
-	    exit 1
 	fi
 }
 
